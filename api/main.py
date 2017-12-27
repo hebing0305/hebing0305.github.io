@@ -13,7 +13,7 @@
             "id": 1,
             "title": "轻量级相册",
             "url": "https://github.com/yanzhenjie/Ablum"
-        }
+        },
 		{
             "content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
             "hint": "查看兼容方案…",
@@ -97,7 +97,7 @@
         }
     ],
     "wechat": {
-        "hint": "/n 扫一扫关注贺兵",
+        "hint": "/n扫一扫关注贺兵",
         "image": "./images/main/yzj_wechat.jpg"
     },
     "field": "value"
