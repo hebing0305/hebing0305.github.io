@@ -77,7 +77,7 @@
 		"name": "Durban"
 	}],
 	"wechat": {
-		"hint": "/n扫一扫关注贺兵",
+		"hint": "              扫一扫关注贺兵",
 		"image": "./images/main/yzj_wechat.jpg"
 	},
 	"field": "value"
