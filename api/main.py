@@ -1,45 +1,10 @@
 {
 	"newsList": [{
-		"content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
-		"hint": "查看兼容方案…",
+		"content": "1. 在APP的build.gradle文件的android节点下中加入各个渠道名，方式如下：",
+		"hint": "查看详细内容…",
 		"id": 0,
-		"title": "Android8.0运行时权限策略变化1",
-		"url": "http://blog.csdn.net/yanzhenjie1003/article/details/76719487"
-	},
-	{
-		"content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
-		"hint": "查看兼容方案…",
-		"id": 1,
-		"title": "Android8.0运行时权限策略变化2",
-		"url": "http://blog.csdn.net/yanzhenjie1003/article/details/76719487"
-	},
-	{
-		"content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
-		"hint": "查看兼容方案…",
-		"id": 2,
-		"title": "Android8.0运行时权限策略变化3",
-		"url": "http://blog.csdn.net/yanzhenjie1003/article/details/76719487"
-	},
-	{
-		"content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
-		"hint": "查看兼容方案…",
-		"id": 3,
-		"title": "Android8.0运行时权限策略变化4",
-		"url": "http://blog.csdn.net/yanzhenjie1003/article/details/76719487"
-	},
-	{
-		"content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
-		"hint": "查看兼容方案…",
-		"id": 4,
-		"title": "Android8.0运行时权限策略变化5",
-		"url": "http://blog.csdn.net/yanzhenjie1003/article/details/76719487"
-	},
-	{
-		"content": "在 Android O 之前，如果应用在运行时请求权限并且被授予该权限，系统会错误地将属于同一权限组并且在清单中注册的其他权限也一起授予应用。对于针对Android O的应用，此行为已被纠正。系统只会授予应用明确请求的权限。然而一旦用户为应用授予某个权限，则所有后续对该权限组中权限的请求都将被自动批准。",
-		"hint": "查看兼容方案…",
-		"id": 5,
-		"title": "Android8.0运行时权限策略变化6",
-		"url": "http://blog.csdn.net/yanzhenjie1003/article/details/76719487"
+		"title": "关于多渠道打包并自动命名实现",
+		"url": "https://zhuanlan.zhihu.com/p/30876503"
 	}],
 	"person": {
 		"avatars": "./images/main/yzj_head.png",
@@ -59,22 +24,10 @@
 		}]
 	},
 	"projectList": [{
-		"describe": "Android状态栏一体化开源库，支持状态栏颜色随着滑动渐变，颜色随着滑动透明，支持使用Drawable和Color作为状态栏背景。",
+		"describe": "这是曾经做过的一个项目，用于仓库管理。支持扫码商品入库，出库，查询商品列表等功能",
 		"id": 0,
-		"link": "https://github.com/yanzhenjie/StatusView",
-		"name": "StatusView"
-	},
-	{
-		"describe": "Android平台的MD风格的相册，支持多选、相机、画廊、图片缩放查看等，推荐和图片裁剪工具Durban结合使用。",
-		"id": 0,
-		"link": "https://github.com/yanzhenjie/Album",
-		"name": "Album"
-	},
-	{
-		"describe": "Android平台的MD风格的图片裁剪工具，可以一次裁剪多长图片，推荐和相册Album结合使用。",
-		"id": 0,
-		"link": "https://github.com/yanzhenjie/Durban",
-		"name": "Durban"
+		"link": "https://github.com/hebing0305/WMS",
+		"name": "WMS"
 	}],
 	"wechat": {
 		"hint": "              扫一扫关注贺兵",
